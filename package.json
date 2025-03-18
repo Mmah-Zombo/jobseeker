@@ -1,0 +1,12 @@
+{
+  "name": "jobseeker",
+  "author": "Mohamed Sow, Bobson",
+  "type": "module",
+  "scripts": {
+    "watch": "npx @tailwindcss/cli -i ./style/input.css -o ./style/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
+}
