@@ -3,6 +3,7 @@
   "author": "Mohamed Sow, Bobson",
   "type": "module",
   "scripts": {
+    "build": "npx @tailwindcss/cli -i ./style/input.css -o ./style/output.css",
     "watch": "npx @tailwindcss/cli -i ./style/input.css -o ./style/output.css --watch"
   },
   "dependencies": {
